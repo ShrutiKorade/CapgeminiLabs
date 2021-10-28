@@ -9,7 +9,7 @@ public class lab3_7 {
 
 		Period diff = Period.between(pdate, now);
 
-		System.out.printf("\nDifference is %d years, %d months and %d days old:", 
+		System.out.printf("\nDifference is %d years, %d months and %d days old", 
 				diff.getYears(), diff.getMonths(), diff.getDays());
 	}
 }
