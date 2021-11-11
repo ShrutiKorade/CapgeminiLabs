@@ -3,6 +3,11 @@ package lab5;
 import java.util.Scanner;
 class InvalidInputException extends Exception {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3240015685634668637L;
+
 	InvalidInputException(String exceptionText)
 	{
 		super(exceptionText);
